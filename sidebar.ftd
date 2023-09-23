@@ -1,66 +1,30 @@
--- ds.page: Page with right-sidebar 👉
+-- ds.page: Documentation Automatic Traffic Systems 🤞
 sidebar: true
-
--- ds.page.right-sidebar:
-
--- ds.h3: Heading in sidebar
-
-You can call any component inside sidebar. 
-
-This right-sidebar will appear on all pages.
-
--- ds.code:
-lang: ftd
-
-\-- ftd.text: Hello World
-
--- end: ds.page.right-sidebar
 
 -- ds.page.body:
 
-If you want to show right-sidebar on your page you can add it like sidebar shown
-in this page 👉.
 
--- ds.h3: `right-sidebar` documentation
+-- ds.h3: Technologies Used: `Python, React, CNN, fastn`
 
-[Click here](https://fastn-community.github.io/doc-site/right-sidebar/) to read
-more about `right-sidebar`.
+-- ds.h3: How this is built?
 
--- ds.h3: How this page is built?
+-- ds.h3: ~ YOLO Algorithm in Traffic Maintaince:
 
-Copy below code snippet to create pages like this with right-sidebar.
+YOLO (You Only Look Once) is a powerful computer vision tool that excels in real-time vehicle counting. Its accuracy, speed, and ability to detect multiple objects make it an excellent choice for efficiently monitoring traffic and managing congestion on roadways.
 
--- ds.code:
-lang: ftd
+-- ds.h3: CNN in Accident detection
 
-\-- ds.page: Page with right-sidebar 👉
-sidebar: true
+Accident detection demands precise analysis of visual data, and Convolutional Neural Networks (CNNs) are tailor-made for this purpose. CNNs excel at understanding the intricate details within images and video frames, enabling them to recognize and classify accidents accurately. Their deep learning architecture learns intricate patterns and features, allowing for the rapid identification of potential hazards on the road. With CNNs, we can enhance safety by promptly detecting accidents and triggering immediate responses, ultimately saving lives and minimizing road risks.
 
-\-- ds.page.right-sidebar:
+-- ds.h3: Haar Cascade in Emergency Vehicle Maintaince
 
-\-- ds.h3: Heading in sidebar
 
-You can call any component inside sidebar. 
+Haar Cascade classifiers are a robust choice for ambulance detection due to their speed and efficiency. These classifiers excel at identifying specific object patterns, making them well-suited for quickly recognizing the unique shape and features of ambulances in real-time. Their ability to operate efficiently on resource-constrained devices ensures swift and reliable ambulance detection, enabling timely prioritization and faster emergency response
 
-This right-sidebar will appear on all pages.
 
-\-- ds.code:
-lang: ftd
+-- ds.h3: How to run:
 
-\-- ftd.text: Hello World
 
-\-- end: ds.page.right-sidebar
-
-\-- ds.page.body:
-
-If you want to show right-sidebar on your page you can add it like sidebar shown
-in this page 👉.
-
-\-- ds.h3: Read right-sidebar documentation
-
-[Click here](https://fastn-community.github.io/doc-site/right-sidebar/) to read
-more about `right-sidebar`.
-
-\-- end: ds.page
+[Click here](https://github.com/) for further installation and docs on github
 
 -- end: ds.page

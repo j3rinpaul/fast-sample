@@ -6,6 +6,7 @@ favicon: /-/j3rinpaul.github.io/fast-sample/favicon.ico
 -- fastn.dependency: fastn-community.github.io/doc-site as doc-site
 -- fastn.dependency: fastn-community.github.io/footer
 -- fastn.dependency: fastn-community.github.io/roboto-typography
+-- fastn.dependency: fastn-community.github.io/button
 
 -- fastn.auto-import: j3rinpaul.github.io/fast-sample/FASTN/ds
 -- fastn.auto-import: j3rinpaul.github.io/fast-sample/assets
@@ -15,4 +16,5 @@ favicon: /-/j3rinpaul.github.io/fast-sample/favicon.ico
 
 # Home: index.html
 
-- Right Sidebar Sample: /sidebar/
+- Docs: /sidebar/
+
